@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🚀 GitHub Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and interactive web application to explore GitHub repositories and user profiles, built using **React.js** and the **GitHub API**. This project is a part of the **CodeClause Internship** – Web Development Domain.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+**GitHub Explorer** allows users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search GitHub repositories by keywords.
+- View repository details (stars, forks, language, etc.).
+- View GitHub user profile data.
+- Paginate results.
+- Switch between light mode and dark mode.
+- Enjoy a responsive, animated, and stylish UI with gradient backgrounds.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖼️ Screenshots
+##Lightmode
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Darkmode
+![alt text](image-4.png)
+![alt text](image-5.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧱 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+github-explorer/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── RepoCard.jsx
+│ │ ├── UserProfile.jsx
+│ ├── pages/
+│ │ └── Home.jsx
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── screenshots/
+│ ├── search-light.png
+│ └── profile-dark.png
+├── package.json
+└── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ How to Run the Project Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔧 Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js and npm installed
+- Internet connection (for GitHub API access)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📦 Steps to Run
 
-## Learn More
+1. **Clone the Repository**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/gauravbhuravane/github-explorer.git
+cd github-explorer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install Dependencies**
+npm install
 
-### Code Splitting
+3. **Start the App**
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **View in Browser**
+Open http://localhost:3000 in your browser.
 
-### Analyzing the Bundle Size
+💡 Features Summary
+🔍 Repository Search
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 User Profile Display
 
-### Making a Progressive Web App
+📄 Pagination for Repositories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🌙 Dark/Light Mode Toggle (top-right corner)
 
-### Advanced Configuration
+🎨 Attractive UI with gradient backgrounds
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📱 Mobile responsive design
 
-### Deployment
+💫 Smooth fade-in animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛠️ Technologies Used
+React.js – Frontend framework
 
-### `npm run build` fails to minify
+HTML & CSS – Layout and design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+JavaScript – Application logic
+
+GitHub API – Data source
+
+Responsive Design – Media queries and flexbox/grid
+
+📈 Future Enhancements (Optional Ideas)
+Infinite scrolling instead of pagination
+
+Add filters by language/stars
+
+Show list of user's starred repositories
+
+Add loader/spinner during API calls
+
+
+👨‍💻 Author
+Gaurav Bhuravane
+📍 Sangameshwar, India
+📧 bhuravanegaurav123@gmail.com
+
+
+
