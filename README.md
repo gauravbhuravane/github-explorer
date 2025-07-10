@@ -29,26 +29,6 @@ A modern and interactive web application to explore GitHub repositories and user
 ![alt text](image-5.png)
 
 
-## 🧱 Project Structure
-
-github-explorer/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── RepoCard.jsx
-│ │ ├── UserProfile.jsx
-│ ├── pages/
-│ │ └── Home.jsx
-│ ├── App.js
-│ ├── App.css
-│ └── index.js
-├── screenshots/
-│ ├── search-light.png
-│ └── profile-dark.png
-├── package.json
-└── README.md
-
 
 ---
 
