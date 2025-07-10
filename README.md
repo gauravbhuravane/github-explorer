@@ -1,6 +1,6 @@
 # 🚀 GitHub Explorer
 
-A modern and interactive web application to explore GitHub repositories and user profiles, built using **React.js** and the **GitHub API**. 
+A modern and interactive web application to explore GitHub repositories and user profiles, built using **React.js** and the **GitHub API**. <br>
 Live Project Link: https://github-explorer-omega-ten.vercel.app/
 ---
 
