@@ -1,7 +1,7 @@
 # 🚀 GitHub Explorer
 
-A modern and interactive web application to explore GitHub repositories and user profiles, built using **React.js** and the **GitHub API**. This project is a part of the **CodeClause Internship** – Web Development Domain.
-
+A modern and interactive web application to explore GitHub repositories and user profiles, built using **React.js** and the **GitHub API**. 
+Live Project Link: https://github-explorer-omega-ten.vercel.app/
 ---
 
 ## 📌 Project Overview
